@@ -1,0 +1,229 @@
+.Btn {
+    width: 140px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#7F3B99,#4C1D95,#7F3B99,#7F3B99,#4C1D95,#7F3B99);
+    background-size: 250%;
+    background-position: left;
+    color: #a752c7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.Btn::before {
+    position: absolute;
+    content: "Follow Me";
+    color: #7F3B99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.84);
+    background-size: 200%;
+}
+
+.Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn:active {
+    transform: scale(0.95);
+}
+
+
+
+.Btn1 {
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #252525,#393A43,#1E1F24,#1E1F24,#393A43,#252525);
+    background-size: 250%;
+    background-position: left;
+    color: #a752c7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.Btn1::before {
+    position: absolute;
+    content: "More about me";
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: #26272C;
+    background-size: 200%;
+    font-size: 16px;
+}
+
+.Btn1:hover {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn1:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn1:active {
+    transform: scale(0.95);
+}
+
+
+.Btn2 {
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #252525,#393A43,#1E1F24,#1E1F24,#393A43,#252525);
+    background-size: 250%;
+    background-position: left;
+    color: #a752c7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.Btn2::before {
+    position: absolute;
+    content: "Back to homepage";
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: #26272C;
+    background-size: 200%;
+    font-size: 16px;
+}
+
+.Btn2:hover {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn2:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn2:active {
+    transform: scale(0.95);
+}
+
+
+.Btn3 {
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #252525,#393A43,#1E1F24,#1E1F24,#393A43,#252525);
+    background-size: 250%;
+    background-position: left;
+    color: #a752c7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.Btn3::before {
+    position: absolute;
+    content: "Verstuur Formulier";
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: #26272C;
+    background-size: 200%;
+    font-size: 16px;
+}
+
+.Btn3:hover {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn3:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.Btn2:active {
+    transform: scale(0.95);
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 100px #26272C;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #26272C;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #393A43;
+}
+
+.bg-a-card {
+    position: relative;
+    display: inline-block;
+    transition: transform 1s ease-in-out;
+}
+.bg-a-card:hover {
+    transform: translateY(-25px);
+}
+
